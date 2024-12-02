@@ -1,0 +1,14 @@
+<div>
+    <h2>FBI Most Wanted</h2>
+    <ul>
+    @for(person of mostWantedList; track person.id) {
+      <li>
+        <img [src]="person.images[0].thumb" alt="Foto de {{ person.title }}" width="150" height="200" />
+        <h3>{{ person.title }}</h3>
+        <p>{{ person.description }}</p>
+        <p><strong>Location:</strong> {{ person.field_offices }}</p>
+      </li>
+    }
+    </ul>
+  </div>
+  

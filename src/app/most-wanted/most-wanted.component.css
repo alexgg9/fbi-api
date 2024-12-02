@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #121212; 
+    color: #ffffff; 
+    padding: 20px;
+  }
+  
+  /* Contenedor Principal */
+  div {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid yellow; 
+    border-radius: 8px;
+    background-color: #1e1e1e;
+  }
+  
+  /* Título Principal */
+  h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: yellow;
+    text-transform: uppercase;
+    border-bottom: 2px solid yellow;
+    padding-bottom: 10px;
+  }
+  
+  /* Lista */
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  /* Elementos de la Lista */
+  li {
+    background-color: #2a2a2a;
+    border: 1px solid yellow;
+    border-radius: 4px;
+    padding: 10px;
+    width: 150px; 
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  /* Imagen */
+  li img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 4px;
+  }
+  
+  /* Texto del Título */
+  li h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    color: yellow; /
+  }
+  
+  /* Texto Descriptivo */
+  li p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  li p strong {
+    color: #ffffff;
+  }
+  
